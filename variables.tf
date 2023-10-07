@@ -14,6 +14,10 @@ variable "ubuntu-ami" {
     default = "ami-024e6efaf93d85776"
 }
 
+variable "centos-ami" {
+    default = "ami-011d59a275b482a49"
+}
+
 variable "vpc_cidr" {
   default     = "10.0.0.0/16"
   description = "CIDR block of the vpc"
